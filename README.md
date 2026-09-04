@@ -280,9 +280,7 @@ footer{
 
 <div class="manga">
 
-<div class="cover">
-🌸
-</div>
+<div class="cover"><img src="اسم-صورة-الغلاف.jpg" alt="غلاف مانهوا كيغ"></div>
 
 <div class="info">
 
