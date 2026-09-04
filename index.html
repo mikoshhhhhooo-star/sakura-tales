@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sakura Tales - حكايات ساكورا، موقع عربي لقراءة المانهوا.">
+  <title>Sakura Tales | حكايات ساكورا</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff7fb;
+      color: #4a3040;
+    }
+
+    header {
+      background: #ffffff;
+      padding: 18px 7%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #f3d5e3;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .logo {
+      color: #d65c91;
+      font-size: 24px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #684758;
+      margin: 0 8px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #d65c91;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 75px 20px;
+      background: linear-gradient(135deg, #ffe5f0, #fff8fb);
+    }
+
+    .flower {
+      font-size: 55px;
+    }
+
+    .hero h1 {
+      font-size: 43px;
+      color: #c94f83;
+      margin: 15px 0;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #765666;
+      margin-bottom: 25px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #d65c91;
+      color: white;
+      padding: 13px 25px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 55px 7%;
+    }
+
+    .section h2 {
+      text-align: center;
+      color: #c94f83;
+      margin-bottom: 30px;
+      font-size: 30px;
+    }
+
+    .manga-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 25px;
+    }
+
+    .manga {
+      background: white;
+      border-radius: 18px;
+      overflow: hidden;
+      border: 1px solid #f0d6e2;
+      box-shadow: 0 8px 25px rgba(150, 70, 100, 0.08);
+    }
+
+    .cover {
+      height: 270px;
+      background: linear-gradient(135deg, #ffd4e5, #fff0f6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 65px;
+    }
+
+    .info {
+      padding: 18px;
+    }
+
+    .info h3 {
+      color: #5a3949;
+      margin-bottom: 8px;
+    }
+
+    .info p {
+      color: #806674;
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+
+    .read {
+      color: #d65c91;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .about {
+      background: #fff0f6;
+      text-align: center;
+      padding: 55px 20px;
+    }
+
+    .about p {
+      max-width: 650px;
+      margin: auto;
+      color: #765666;
+      line-height: 1.9;
+    }
+
+    footer {
+      background: #d65c91;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 650px) {
+      header {
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      nav a {
+        font-size: 14px;
+      }
+
+      .hero h1 {
+        font-size: 32px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <a class="logo" href="#">🌸 Sakura Tales</a>
+
+    <nav>
+      <a href="#home">الرئيسية</a>
+      <a href="#manga">المانهوا</a>
+      <a href="#latest">آخر الفصول</a>
+      <a href="#about">عن الموقع</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="flower">🌸</div>
+
+    <h1>حكايات ساكورا</h1>
+
+    <p>
+      عالم من القصص والمانهوا التي تُروى بين بتلات الساكورا 💗
+    </p>
+
+    <a class="button" href="#manga">اكتشفي المانهوا ✨</a>
+  </section>
+
+  <section class="section" id="manga">
+
+    <h2>📚 المانهوا</h2>
+
+    <div class="manga-grid">
+
+      <div class="manga">
+        <div class="cover">🌙🌸</div>
+
+        <div class="info">
+          <h3>زهرة تحت القمر</h3>
+
+          <p>
+            مانهوا تجريبية مؤقتة. سنضع هنا مانهواكِ الحقيقية لاحقًا.
+          </p>
+
+          <a class="read" href="#">اقرئي الآن ←</a>
+        </div>
+      </div>
+
+      <div class="manga">
+        <div class="cover">👑🌸</div>
+
+        <div class="info">
+          <h3>أميرة الساكورا</h3>
+
+          <p>
+            قصة تجريبية مؤقتة لتجربة شكل الموقع.
+          </p>
+
+          <a class="read" href="#">اقرئي الآن ←</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section" id="latest">
+
+    <h2>✨ آخر الفصول</h2>
+
+    <div class="manga-grid">
+
+      <div class="manga">
+        <div class="info">
+          <h3>🌸 زهرة تحت القمر</h3>
+          <p>الفصل 01 — جديد</p>
+          <a class="read" href="#">قراءة الفصل ←</a>
+        </div>
+      </div>
+
+      <div class="manga">
+        <div class="info">
+          <h3>👑 أميرة الساكورا</h3>
+          <p>الفصل 01 — جديد</p>
+          <a class="read" href="#">قراءة الفصل ←</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="about" id="about">
+
+    <h2>💗 عن Sakura Tales</h2>
+
+    <br>
+
+    <p>
+      أهلاً بكِ في Sakura Tales 🌸
+      موقع عربي مخصص لنشر وقراءة المانهوا الأصلية.
+      هذه بداية الموقع، وسنضيف لاحقًا مانهواكِ وفصولكِ وصفحات القراءة.
+    </p>
+
+  </section>
+
+  <footer>
+    🌸 Sakura Tales — حكايات ساكورا
+    <br>
+    © 2026 جميع الحقوق محفوظة
+  </footer>
+
+</body>
+  </html>
